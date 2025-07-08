@@ -12,6 +12,16 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="MP710995 Driver" Type="Folder">
+			<Item Name="Device Init.vi" Type="VI" URL="../MP710995 Driver/Device Init.vi"/>
+			<Item Name="Device Close.vi" Type="VI" URL="../MP710995 Driver/Device Close.vi"/>
+			<Item Name="Test Connected Device.vi" Type="VI" URL="../MP710995 Driver/Test Connected Device.vi"/>
+			<Item Name="Command - Voltage.vi" Type="VI" URL="../MP710995 Driver/Command - Voltage.vi"/>
+			<Item Name="Command - Current.vi" Type="VI" URL="../MP710995 Driver/Command - Current.vi"/>
+			<Item Name="Command - Output State.vi" Type="VI" URL="../MP710995 Driver/Command - Output State.vi"/>
+			<Item Name="Monitor - Voltage.vi" Type="VI" URL="../MP710995 Driver/Monitor - Voltage.vi"/>
+			<Item Name="Monitor - Current.vi" Type="VI" URL="../MP710995 Driver/Monitor - Current.vi"/>
+		</Item>
 		<Item Name="FlexLogger Plug-in Development Kit Manual.pdf" Type="Document" URL="/&lt;resource&gt;/FlexLogger/SDK/FlexLogger Plug-in Development Kit Manual.pdf"/>
 		<Item Name="MP710995.lvlib" Type="Library" URL="../MP710995.lvlib"/>
 		<Item Name="MP710995.xml" Type="Document" URL="../MP710995.xml"/>
