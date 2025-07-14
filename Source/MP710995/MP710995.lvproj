@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="25008000">
+	<Property Name="NI.LV.All.SaveVersion" Type="Str">25.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="UInt">3</Property>
@@ -15,16 +16,19 @@
 		<Item Name="MP710995 Driver" Type="Folder">
 			<Item Name="Device Init.vi" Type="VI" URL="../MP710995 Driver/Device Init.vi"/>
 			<Item Name="Device Close.vi" Type="VI" URL="../MP710995 Driver/Device Close.vi"/>
+			<Item Name="Find Available COM Ports.vi" Type="VI" URL="../MP710995 Driver/Find Available COM Ports.vi"/>
 			<Item Name="Test Connected Device.vi" Type="VI" URL="../MP710995 Driver/Test Connected Device.vi"/>
 			<Item Name="Command - Voltage.vi" Type="VI" URL="../MP710995 Driver/Command - Voltage.vi"/>
 			<Item Name="Command - Current.vi" Type="VI" URL="../MP710995 Driver/Command - Current.vi"/>
 			<Item Name="Command - Output State.vi" Type="VI" URL="../MP710995 Driver/Command - Output State.vi"/>
 			<Item Name="Monitor - Voltage.vi" Type="VI" URL="../MP710995 Driver/Monitor - Voltage.vi"/>
 			<Item Name="Monitor - Current.vi" Type="VI" URL="../MP710995 Driver/Monitor - Current.vi"/>
+			<Item Name="Monitor - Status.vi" Type="VI" URL="../MP710995 Driver/Monitor - Status.vi"/>
 		</Item>
 		<Item Name="FlexLogger Plug-in Development Kit Manual.pdf" Type="Document" URL="/&lt;resource&gt;/FlexLogger/SDK/FlexLogger Plug-in Development Kit Manual.pdf"/>
 		<Item Name="MP710995.lvlib" Type="Library" URL="../MP710995.lvlib"/>
 		<Item Name="MP710995.xml" Type="Document" URL="../MP710995.xml"/>
+		<Item Name="Device Info.ctl" Type="VI" URL="../Device Info.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="MP710995 Packed Library" Type="Packed Library">
@@ -39,6 +43,7 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/National Instruments/FlexLogger/Plugins/IOPlugins/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8B24C2F8-F59A-4FDA-BC6D-B10591641AB1}</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">MP710995.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/National Instruments/FlexLogger/Plugins/IOPlugins/NI_AB_PROJECTNAME/MP710995.lvlibp</Property>
